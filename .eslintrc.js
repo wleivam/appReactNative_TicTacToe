@@ -18,5 +18,19 @@ module.exports = {
         'react-native/no-single-element-style-arrays': 2,
         indent: 2,
         'prettier/prettier': ['off', {tabWidth: 4}],
+        'comma-dangle': ['error', {
+            'arrays': 'always-multiline',
+            'objects': 'always-multiline',
+            'imports': 'always-multiline',
+            'exports': 'always-multiline',
+            'functions': 'always-multiline',
+        }],
+        'eol-last': ['error', 'always'],
+        'object-curly-newline': ['error', {
+            'ObjectExpression': { 'consistent': true },
+            'ObjectPattern': { 'multiline': true, 'minProperties': 3 },
+            'ImportDeclaration': { 'multiline': true, 'minProperties': 3 },
+            'ExportDeclaration': { 'multiline': true, 'minProperties': 3 },
+        }],
     },
 };
