@@ -8,31 +8,42 @@ import {
     TextCell,
     styles,
 } from './style';
+import {
+    firstColumn,
+    secondColumn,
+    thirdColumn,
+    finishedStates,
+} from '../../utils';
 
-// column indexes of a one-dimensional array
-const firstColumn = [0, 3, 6];
-const secondColumn = [1, 4, 7];
-const thirdColumn = [2, 5, 8];
-
-const CellTouchable = ({item, index}) => {
-    return (
-        <ColumnCell
-            rightBorder={firstColumn.includes(index)}
-            bothBorder={secondColumn.includes(index)}
-            leftBorder={thirdColumn.includes(index)}
+const CellTouchable = ({
+    item,
+    index,
+    play,
+    status,
+}) => (
+    <ColumnCell
+        rightBorder={firstColumn.includes(index)}
+        bothBorder={secondColumn.includes(index)}
+        leftBorder={thirdColumn.includes(index)}
+    >
+        <ButtonCell
+            onPress={() => play(index)}
+            disabled={item.length || finishedStates.includes(status)}
         >
-            <ButtonCell onPress={() => console.log('ON PRESS! -> Item ', index)}>
-                <TextCell>{item}</TextCell>
-            </ButtonCell>
-        </ColumnCell>
-    );
-};
+            <TextCell>{item}</TextCell>
+        </ButtonCell>
+    </ColumnCell>
+);
 
-const Board = () => (
+const Board = ({
+    data,
+    play,
+    status,
+}) => (
     <GameBoard
         scrollEnabled={false}
         numColumns={3}
-        data={Array(9).fill('')}
+        data={data}
         keyExtractor={(item, index) => index.toString()}
         contentContainerStyle={styles.fullHeight}
         CellRendererComponent={({children}) => (
@@ -41,7 +52,12 @@ const Board = () => (
         columnWrapperStyle={styles.row}
         ItemSeparatorComponent={() => <HorizontalSeparator />}
         renderItem={({item, index}) => (
-            <CellTouchable item={item} index={index} />
+            <CellTouchable
+                item={item}
+                index={index}
+                play={play}
+                status={status}
+            />
         )}
     />
 );

@@ -18,7 +18,7 @@ const Body = styled.View`
 
 const Content = styled.View`
     width: 80%;
-    height: 60%;
+    height: 90%;
 `;
 
 const Footer = styled.View`

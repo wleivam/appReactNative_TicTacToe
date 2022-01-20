@@ -4,7 +4,7 @@ import styled from 'styled-components/native';
 const ButtonCell = styled.TouchableOpacity`
     width: 85%;
     height: 85%;
-    background-color: #DDD;
+    background-color: ${props => !props.disabled ? '#DDD' : 'transparent'};
     border-radius: 20px;
     justify-content: center;
     align-items: center;
