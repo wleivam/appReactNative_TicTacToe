@@ -1,7 +1,13 @@
-import { StyleSheet } from 'react-native';
+import {
+    TouchableOpacity,
+    View,
+    FlatList,
+    Text,
+    StyleSheet,
+} from 'react-native';
 import styled from 'styled-components/native';
 
-const ButtonCell = styled.TouchableOpacity`
+const ButtonCell = styled(TouchableOpacity)`
     width: 85%;
     height: 85%;
     background-color: ${props => !props.disabled ? '#DDD' : 'transparent'};
@@ -10,7 +16,7 @@ const ButtonCell = styled.TouchableOpacity`
     align-items: center;
 `;
 
-const ColumnCell = styled.View`
+const ColumnCell = styled(View)`
     display: flex;
     flex: 1 0 0;
     justify-content: center;
@@ -27,18 +33,18 @@ const ColumnCell = styled.View`
     `};    
 `;
 
-const GameBoard = styled.FlatList``;
+const GameBoard = styled(FlatList)``;
 
-const HorizontalSeparator = styled.View`
+const HorizontalSeparator = styled(View)`
     border: 2px solid #000;
 `;
 
-const ListItem = styled.View`
+const ListItem = styled(View)`
     display: flex;
     flex: 1;
 `;
 
-const TextCell = styled.Text`
+const TextCell = styled(Text)`
     font-size: 20px;
     font-weight: 900;
 `;

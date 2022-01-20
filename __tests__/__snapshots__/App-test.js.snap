@@ -1,0 +1,812 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App initial render 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Array [
+      Object {},
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": "10%",
+          "width": "100%",
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "height": "80%",
+          "justifyContent": "center",
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": "90%",
+            "width": "80%",
+          },
+        ]
+      }
+    >
+      <View
+        className="sc-bdvvtL ggDfgN"
+      >
+        <Text
+          className="sc-gsDKAQ fyGiCt"
+        >
+          Next Player: X
+        </Text>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            className="sc-hKwDye btRsZv"
+          >
+            Reset
+          </Text>
+        </View>
+      </View>
+      <RCTScrollView
+        CellRendererComponent={[Function]}
+        ItemSeparatorComponent={[Function]}
+        contentContainerStyle={
+          Object {
+            "height": "100%",
+          }
+        }
+        data={
+          Array [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+          ]
+        }
+        getItem={[Function]}
+        getItemCount={[Function]}
+        keyExtractor={[Function]}
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEnabled={false}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        style={
+          Array [
+            Object {},
+          ]
+        }
+        viewabilityConfigCallbackPairs={Array []}
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "flex": 1,
+                  },
+                ]
+              }
+            >
+              <View
+                bothBorder={false}
+                leftBorder={false}
+                rightBorder={true}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderRightColor": "#000",
+                      "borderRightStyle": "solid",
+                      "borderRightWidth": 2,
+                      "display": "flex",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 0,
+                      "justifyContent": "center",
+                    },
+                  ]
+                }
+              >
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDD",
+                      "borderRadius": 20,
+                      "height": "85%",
+                      "justifyContent": "center",
+                      "opacity": 1,
+                      "width": "85%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 20,
+                          "fontWeight": "900",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                bothBorder={true}
+                leftBorder={false}
+                rightBorder={false}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderLeftColor": "#000",
+                      "borderLeftStyle": "solid",
+                      "borderLeftWidth": 2,
+                      "borderRightColor": "#000",
+                      "borderRightStyle": "solid",
+                      "borderRightWidth": 2,
+                      "display": "flex",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 0,
+                      "justifyContent": "center",
+                    },
+                  ]
+                }
+              >
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDD",
+                      "borderRadius": 20,
+                      "height": "85%",
+                      "justifyContent": "center",
+                      "opacity": 1,
+                      "width": "85%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 20,
+                          "fontWeight": "900",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                bothBorder={false}
+                leftBorder={true}
+                rightBorder={false}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderLeftColor": "#000",
+                      "borderLeftStyle": "solid",
+                      "borderLeftWidth": 2,
+                      "display": "flex",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 0,
+                      "justifyContent": "center",
+                    },
+                  ]
+                }
+              >
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDD",
+                      "borderRadius": 20,
+                      "height": "85%",
+                      "justifyContent": "center",
+                      "opacity": 1,
+                      "width": "85%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 20,
+                          "fontWeight": "900",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderColor": "#000",
+                    "borderStyle": "solid",
+                    "borderWidth": 2,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "flex": 1,
+                  },
+                ]
+              }
+            >
+              <View
+                bothBorder={false}
+                leftBorder={false}
+                rightBorder={true}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderRightColor": "#000",
+                      "borderRightStyle": "solid",
+                      "borderRightWidth": 2,
+                      "display": "flex",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 0,
+                      "justifyContent": "center",
+                    },
+                  ]
+                }
+              >
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDD",
+                      "borderRadius": 20,
+                      "height": "85%",
+                      "justifyContent": "center",
+                      "opacity": 1,
+                      "width": "85%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 20,
+                          "fontWeight": "900",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                bothBorder={true}
+                leftBorder={false}
+                rightBorder={false}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderLeftColor": "#000",
+                      "borderLeftStyle": "solid",
+                      "borderLeftWidth": 2,
+                      "borderRightColor": "#000",
+                      "borderRightStyle": "solid",
+                      "borderRightWidth": 2,
+                      "display": "flex",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 0,
+                      "justifyContent": "center",
+                    },
+                  ]
+                }
+              >
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDD",
+                      "borderRadius": 20,
+                      "height": "85%",
+                      "justifyContent": "center",
+                      "opacity": 1,
+                      "width": "85%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 20,
+                          "fontWeight": "900",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                bothBorder={false}
+                leftBorder={true}
+                rightBorder={false}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderLeftColor": "#000",
+                      "borderLeftStyle": "solid",
+                      "borderLeftWidth": 2,
+                      "display": "flex",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 0,
+                      "justifyContent": "center",
+                    },
+                  ]
+                }
+              >
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDD",
+                      "borderRadius": 20,
+                      "height": "85%",
+                      "justifyContent": "center",
+                      "opacity": 1,
+                      "width": "85%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 20,
+                          "fontWeight": "900",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderColor": "#000",
+                    "borderStyle": "solid",
+                    "borderWidth": 2,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "display": "flex",
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "flex": 1,
+                  },
+                ]
+              }
+            >
+              <View
+                bothBorder={false}
+                leftBorder={false}
+                rightBorder={true}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderRightColor": "#000",
+                      "borderRightStyle": "solid",
+                      "borderRightWidth": 2,
+                      "display": "flex",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 0,
+                      "justifyContent": "center",
+                    },
+                  ]
+                }
+              >
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDD",
+                      "borderRadius": 20,
+                      "height": "85%",
+                      "justifyContent": "center",
+                      "opacity": 1,
+                      "width": "85%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 20,
+                          "fontWeight": "900",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                bothBorder={true}
+                leftBorder={false}
+                rightBorder={false}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderLeftColor": "#000",
+                      "borderLeftStyle": "solid",
+                      "borderLeftWidth": 2,
+                      "borderRightColor": "#000",
+                      "borderRightStyle": "solid",
+                      "borderRightWidth": 2,
+                      "display": "flex",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 0,
+                      "justifyContent": "center",
+                    },
+                  ]
+                }
+              >
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDD",
+                      "borderRadius": 20,
+                      "height": "85%",
+                      "justifyContent": "center",
+                      "opacity": 1,
+                      "width": "85%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 20,
+                          "fontWeight": "900",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                bothBorder={false}
+                leftBorder={true}
+                rightBorder={false}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderLeftColor": "#000",
+                      "borderLeftStyle": "solid",
+                      "borderLeftWidth": 2,
+                      "display": "flex",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "flexShrink": 0,
+                      "justifyContent": "center",
+                    },
+                  ]
+                }
+              >
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDD",
+                      "borderRadius": 20,
+                      "height": "85%",
+                      "justifyContent": "center",
+                      "opacity": 1,
+                      "width": "85%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontSize": 20,
+                          "fontWeight": "900",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": "10%",
+          "width": "100%",
+        },
+      ]
+    }
+  />
+</RCTSafeAreaView>
+`;

@@ -1,27 +1,32 @@
+import {
+    SafeAreaView,
+    StatusBar,
+    View,
+} from 'react-native';
 import styled from 'styled-components/native';
 
-const Container = styled.SafeAreaView``;
+const Container = styled(SafeAreaView)``;
 
-const InfoBar = styled.StatusBar.attrs(props => ({hidden: true}))``;
+const InfoBar = styled(StatusBar).attrs(props => ({hidden: true}))``;
 
-const Header = styled.View`
+const Header = styled(View)`
     width: 100%;
     height: 10%;
 `;
 
-const Body = styled.View`
+const Body = styled(View)`
     width: 100%;
     height: 80%;
     justify-content: center;
     align-items: center;
 `;
 
-const Content = styled.View`
+const Content = styled(View)`
     width: 80%;
     height: 90%;
 `;
 
-const Footer = styled.View`
+const Footer = styled(View)`
     width: 100%;
     height: 10%;
 `;

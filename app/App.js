@@ -65,6 +65,7 @@ const App: () => Node = () => {
             }
             if (playing) setPlayer(player ? 0 : 1);
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [moves]);
 
     return (
