@@ -29,6 +29,7 @@ const CellTouchable = ({
         <ButtonCell
             onPress={() => play(index)}
             disabled={item.length || finishedStates.includes(status)}
+            testID={`cell-touchable-0${index}`}
         >
             <TextCell>{item}</TextCell>
         </ButtonCell>

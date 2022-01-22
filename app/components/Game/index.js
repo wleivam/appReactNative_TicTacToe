@@ -15,10 +15,11 @@ const Game = ({
 }) => {
     return (
         <Container>
-            <Indicators>{constants[status] + (status !== 'draw' ? players[player] : '')}</Indicators>
+            <Indicators testID={'game-status'}>{constants[status] + (status !== 'draw' ? players[player] : '')}</Indicators>
             <ResetButton
                 onPress={reset}
                 hidden={moves === 0}
+                testID={'reset-button'}
             >
                 <ButtonText>{constants.resetButton}</ButtonText>
             </ResetButton>

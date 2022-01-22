@@ -46,6 +46,7 @@ exports[`App initial render 1`] = `
       >
         <Text
           className="sc-gsDKAQ fyGiCt"
+          testID="game-status"
         >
           Next Player: X
         </Text>
@@ -66,6 +67,7 @@ exports[`App initial render 1`] = `
               "opacity": 1,
             }
           }
+          testID="reset-button"
         >
           <Text
             className="sc-hKwDye btRsZv"
@@ -190,6 +192,7 @@ exports[`App initial render 1`] = `
                       "width": "85%",
                     }
                   }
+                  testID="cell-touchable-00"
                 >
                   <Text
                     style={
@@ -256,6 +259,7 @@ exports[`App initial render 1`] = `
                       "width": "85%",
                     }
                   }
+                  testID="cell-touchable-01"
                 >
                   <Text
                     style={
@@ -319,6 +323,7 @@ exports[`App initial render 1`] = `
                       "width": "85%",
                     }
                   }
+                  testID="cell-touchable-02"
                 >
                   <Text
                     style={
@@ -419,6 +424,7 @@ exports[`App initial render 1`] = `
                       "width": "85%",
                     }
                   }
+                  testID="cell-touchable-03"
                 >
                   <Text
                     style={
@@ -485,6 +491,7 @@ exports[`App initial render 1`] = `
                       "width": "85%",
                     }
                   }
+                  testID="cell-touchable-04"
                 >
                   <Text
                     style={
@@ -548,6 +555,7 @@ exports[`App initial render 1`] = `
                       "width": "85%",
                     }
                   }
+                  testID="cell-touchable-05"
                 >
                   <Text
                     style={
@@ -648,6 +656,7 @@ exports[`App initial render 1`] = `
                       "width": "85%",
                     }
                   }
+                  testID="cell-touchable-06"
                 >
                   <Text
                     style={
@@ -714,6 +723,7 @@ exports[`App initial render 1`] = `
                       "width": "85%",
                     }
                   }
+                  testID="cell-touchable-07"
                 >
                   <Text
                     style={
@@ -777,6 +787,7 @@ exports[`App initial render 1`] = `
                       "width": "85%",
                     }
                   }
+                  testID="cell-touchable-08"
                 >
                   <Text
                     style={
